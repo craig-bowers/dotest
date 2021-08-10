@@ -1,4 +1,4 @@
-const url = new URL("/website", "http://localhost:8000/");
+const url = new URL("/website", "https://dotest-e48md.ondigitalocean.app");
 let currentPath = url.pathname;
 
 let filesDiv = document.querySelector("[data-files");
