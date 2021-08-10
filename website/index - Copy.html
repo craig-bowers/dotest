@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>File Server</title>
+</head>
+
+<body>
+    <h1>Snakle's File Server</h1>
+
+    <h2>Current Files of /</h2>
+
+    <p data-files></p>
+
+    <hr>
+
+        <p>File Path:
+            <button type="submit" data-load>Load</button>
+        </p>
+
+</body>
+
+<style>
+    [data-content] {
+        width: 100%;
+    }
+
+    [data-delete] {
+        float: right;
+    }
+</style>
+
+
+<script>
+let btn = document.querySelector("[data-load]");
+btn.addEventListener("submit", () => {
+    console.log("hi");
+});
+</script>
+
+
+</html>

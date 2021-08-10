@@ -1,0 +1,26 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file_server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mime": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craig-bowers/digitaloceantest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craig-bowers/digitaloceantest/issues"
+  },
+  "homepage": "https://github.com/craig-bowers/digitaloceantest#readme"
+}
